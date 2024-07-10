@@ -12,3 +12,21 @@ An **autograd engine** is a computational tool that automates the calculation of
 
 4. **Scalar Operations**: The autograd engine typically operates on scalar values (individual numbers) rather than vectors or matrices. This allows it to handle each tiny operation (like additions and multiplications) independently, keeping computations manageable and efficient.
 
+### 2. makemore
+
+- **Tool Purpose**: "makemore" is a lightweight tool designed for generating text based on a single input text file. Each line in the file is treated as a training example.
+  
+- **Model Capabilities**: It operates as an autoregressive character-level language model, offering a variety of model options inspired by research papers:
+  - Bigram model (where one character predicts the next based on frequency counts).
+  - MLP (Multi-Layer Perceptron), following Bengio et al. 2003.
+  - CNN (Convolutional Neural Network), based on DeepMind WaveNet 2016 (work in progress).
+  - RNN (Recurrent Neural Network), following Mikolov et al. 2010.
+  - LSTM (Long Short-Term Memory), following Graves et al. 2014.
+  - GRU (Gated Recurrent Unit), following Kyunghyun Cho et al. 2014.
+  - Transformer, following Vaswani et al. 2017.
+  
+- **Use Cases**: Users can feed various datasets into "makemore":
+  - Generate unique baby names or company names that sound realistic but are not already existing.
+    
+- **Dependencies**: Requires only **PyTorch** for its operations.
+
