@@ -30,13 +30,13 @@ An **autograd engine** is a computational tool that automates the calculation of
     
 - **Dependencies**: Requires only **PyTorch** for its operations.
 
-### 3. # What is the Learning Rate in Deep Learning?
+### 3.  What is the Learning Rate in Deep Learning?
 
-Neural networks have many hyperparameters that affect the model’s performance. One of the **essential hyperparameters** is the learning rate (LR), which determines how much the model weights change between training steps. In the simplest case, the LR value is a fixed value between 0 and 1.
+- Neural networks have many hyperparameters that affect the model’s performance. One of the **essential hyperparameters** is the learning rate (LR), which determines how much the model weights change between training steps. In the simplest case, the LR value is a fixed value between 0 and 1.
 
-However, choosing the correct LR value can be challenging. On the one hand, a **large learning rate** can help the algorithm to converge quickly. But it can also cause the algorithm to bounce around the minimum without reaching it or even jumping over it if it is too large. On the other hand, **a small learning rate** can converge better to the minimum. However, the optimizer may take too long to converge or get stuck in a plateau if it is too small.
+- However, choosing the correct LR value can be challenging. On the one hand, a **large learning rate** can help the algorithm to converge quickly. But it can also cause the algorithm to bounce around the minimum without reaching it or even jumping over it if it is too large. On the other hand, **a small learning rate** can converge better to the minimum. However, the optimizer may take too long to converge or get stuck in a plateau if it is too small.
 
-## What is a Learning Rate Scheduler?
+#### What is a Learning Rate Scheduler?
 One solution to help the algorithm **converge quickly to an optimum** is to use a learning rate scheduler. A learning rate scheduler adjusts the learning rate according to a pre-defined schedule during the training process.
 
 
