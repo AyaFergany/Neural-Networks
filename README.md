@@ -30,7 +30,9 @@ An **autograd engine** is a computational tool that automates the calculation of
     
 - **Dependencies**: Requires only **PyTorch** for its operations.
 
-### 3.  What is the Learning Rate in Deep Learning?
+### 3. learning rate scheduler
+
+#### What is the Learning Rate in Deep Learning?
 
 - Neural networks have many hyperparameters that affect the model’s performance. One of the **essential hyperparameters** is the learning rate (LR), which determines how much the model weights change between training steps. In the simplest case, the LR value is a fixed value between 0 and 1.
 
