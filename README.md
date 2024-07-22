@@ -1,4 +1,5 @@
 # Neural-Networks
+I studied this course from playlist for **Andrej Karpathy**
 
 ### 1. micrograd
 
